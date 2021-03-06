@@ -1,0 +1,36 @@
+/* utiliser une police personnalisée via @font-face */
+@font-face {
+    font-family: 'sinkin_sans400_regular';
+    src: url('SinkinSans-400Regular-webfont.eot');
+    src: url('SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SinkinSans-400Regular-webfont.woff2') format('woff2'),
+         url('SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* changer la couleur d'un des textes */
+h2
+{
+    color:slateblue;
+}
+
+/* changement de l'alignement d'un des textes */
+.liste
+{
+    text-align: center;
+}
+    
+/* appliquer une image de fond à la page */
+body
+{
+    background: url("fond.jpg") fixed;
+} 
+/* définir la bordure et l'ombre d'un élément */
+h2
+{
+    border: 3px green double;
+    box-shadow: 4px 4px 10px violet;
+}
