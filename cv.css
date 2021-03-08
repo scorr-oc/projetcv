@@ -34,3 +34,57 @@ h2
     border: 3px green double;
     box-shadow: 4px 4px 10px violet;
 }
+
+/* insérer un liseret à gauche, défini en valeur absolue */
+#liseré
+{
+    background-image: url(lodyas.png);
+    width: 10%;
+    height: 500px;
+   
+}
+
+#contenu
+{
+        width: 90%;
+        height: 500px;
+        vertical-align: top;
+}       
+
+
+.image
+{
+    float: right;
+    border: 6px black solid;
+    margin-bottom: 10px;
+
+  
+
+}
+
+h1
+{
+    text-align: center;
+    vertical-align: top;
+    flex: 6 ; 
+   
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 3px;
+    text-align: center;
+}
+.s1
+{
+    clear:both;
+    margin-left: 5px;
+}
+
+body
+{
+    display: flex;
+}
